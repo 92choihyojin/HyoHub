@@ -1,7 +1,7 @@
 
 # Read Me 를 작성하겠습니다.
 
-# SpringBoot-Project-MEGABOX
+# 쉬자Go COMPANY - VacationHolySystem
 휴가신청 관리 
 
 
