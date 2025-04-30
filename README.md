@@ -39,9 +39,9 @@
 - 로그인 시 본인의정보 출력하여준다.
 - 휴가 (연차, 병가) 선택하고 날짜를 설정해 신청서를 작성한다.
 
-![image](https://github.com/user-attachments/assets/11b38c0c-03cd-4939-9fa3-5d1267d957fa) \n
+![image](https://github.com/user-attachments/assets/11b38c0c-03cd-4939-9fa3-5d1267d957fa)
 
-![image](https://github.com/user-attachments/assets/faa621c9-b7a2-4ffe-a0a7-a7f65bcc28e0) \n
+![image](https://github.com/user-attachments/assets/faa621c9-b7a2-4ffe-a0a7-a7f65bcc28e0)
 
 ![image](https://github.com/user-attachments/assets/0614c0a1-b47b-4a8c-8914-33c6900d1e23)
 
@@ -50,13 +50,14 @@
 (관리자가 사번과 비밀번호를 입력하여 로그인)
 - 관리자는 직원들의 휴가 신청 현황을 확인하고, **승인 또는 반려** 할 수 있다.
 - 각 직원의 휴가 사용 이력과 잔여 일수를 실시간으로 조회할 수 있다.
-✅ 사원조회
-✅ 신규사원등록
-✅사원정보수정
-✅사원정보삭제
-✅휴가신청 리스트 확인
-✅입사 오래된순 정렬
-✅입사 최신순 정렬
+![image](https://github.com/user-attachments/assets/f3737a8b-440d-443e-aed7-eb0eacd2c795)
+
+![image](https://github.com/user-attachments/assets/c70c8fca-1671-408f-a2a7-6ca40f05de92)
+
+![image](https://github.com/user-attachments/assets/f7115b62-07ba-45a3-a02f-2b7f5d2db63b)
+
+![image](https://github.com/user-attachments/assets/d05f5778-8686-40ed-b42b-089e9cc312e2)
+
 
 ## 🗃️ DB 테이블 명세서
 
