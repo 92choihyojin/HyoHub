@@ -50,6 +50,7 @@
 (관리자가 사번과 비밀번호를 입력하여 로그인)
 - 관리자는 직원들의 휴가 신청 현황을 확인하고, **승인 또는 반려** 할 수 있다.
 - 각 직원의 휴가 사용 이력과 잔여 일수를 실시간으로 조회할 수 있다.
+- 
 ![image](https://github.com/user-attachments/assets/f3737a8b-440d-443e-aed7-eb0eacd2c795)
 
 ![image](https://github.com/user-attachments/assets/c70c8fca-1671-408f-a2a7-6ca40f05de92)
