@@ -1,7 +1,4 @@
-
-# Read Me 를 작성하겠습니다.
-
-# 쉬자Go COMPANY - VacationHolySystem
+# 🛫  쉬자Go COMPANY - VacationHolySystem
 쉬자Go - 휴가 통합 관리 시스템
 
 
