@@ -62,6 +62,9 @@
   
 ![image](https://github.com/user-attachments/assets/d05f5778-8686-40ed-b42b-089e9cc312e2)
 
+-
+
+![image](https://github.com/92choihyojin/HyoHub/blob/main/HR_Vacation_Project/HR_Vacation_Project.mp4)
 
 ## 🗃️ DB 테이블 명세서
 
@@ -111,4 +114,4 @@ DB로 작업해보기전에
 
 - 모든 문서 및 산출물은 Google Drive를 통해 공유 및 관리됩니다.
 
-<video src="https://github.com/92choihyojin/HyoHub/blob/main/HR_Vacation_Project/HR_Vacation_Project.mp4" controls width="700px"></video>
+
