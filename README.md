@@ -110,3 +110,5 @@ DB로 작업해보기전에
 파일로 관리를 할수있게 만들어보았습니다.
 
 - 모든 문서 및 산출물은 Google Drive를 통해 공유 및 관리됩니다.
+
+<video src="https://github.com/92choihyojin/HyoHub/blob/main/HR_Vacation_Project/HR_Vacation_Project.mp4" controls width="700px"></video>
