@@ -15,6 +15,11 @@ import java.util.List;
 import java.util.Optional;
 import java.util.Scanner;
 
+import chj.companyMenu.EmpMenu;
+import chj.companyMenu.EmpModifyMenu;
+import chj.companyMenu.Menu;
+import chj.companyMenu.VacationMenu;
+
 
 public class Company {
 
@@ -214,7 +219,7 @@ public class Company {
 		    		DateTimeFormatter formatter2 = DateTimeFormatter.ofPattern("yyyyMMdd");
 		        	
 		        	while(isStop == false) {
-		    			System.out.printf("어서오십시오. [%s] 님\n", tmpEmp.getName());
+		    			System.out.printf("어서오십시오. [ %s ] 님\n", tmpEmp.getName());
 		    			// [ 본인정보 (사번, 이름, 직급, 생년월일, 전화번호, 잔여연차) ] 출력 되야함
 		    			System.out.printf("사원번호 : %s  /  이름 : %s  /  직급 : %s\n생년월일 : %s  /  전화번호 : %s\n입사년도 : %s  /  잔여 연차 : %s\n",
 		    					tmpEmp.getEmpNo(),tmpEmp.getName(),tmpEmp.getPosition(),tmpEmp.getBirthDt(),
@@ -427,7 +432,7 @@ public class Company {
 		        	boolean isStop = false;
 		        	if(tmpEmp.getIsAdmin()==true) {
 		        		while((tmpEmp.getIsAdmin()==true) && (isStop == false)) {
-			    			System.out.printf("어서오십시오 관리자 [%s]님\n", tmpEmp.getName());
+			    			System.out.printf("어서오십시오 관리자 [ %s ]님\n", tmpEmp.getName());
 			    			System.out.printf("사원번호 : %s  /  이름 : %s  /  직급 : %s\n생년월일 : %s  /  전화번호 : %s\n입사년도 : %s  /  잔여 연차 : %s\n",
 			    					tmpEmp.getEmpNo(),tmpEmp.getName(),tmpEmp.getPosition(),tmpEmp.getBirthDt(),
 			    					tmpEmp.getPhoneNo(),tmpEmp.getHireDt(),tmpEmp.getHolyDayCnt());
@@ -472,7 +477,9 @@ public class Company {
 			    					}
 			    					if (findEmployee==null) { // 데이터가 있으면 안돌고, 데이터가 없어서 null인 상태이면 아래가 돌고
 			    						System.out.printf("[%s] 해당 사번은 없습니다.\n", inputEmpNo); // null이랑 일치해서 돌면 보여줄 메시지가 이것임.
+			    					
 			    					} else {
+			    					
 			    						boolean isChangeDone = false;
 			    						while(!isChangeDone) {
 			    							Menu.EmpNoInformation(findEmployee);
@@ -506,6 +513,7 @@ public class Company {
 			    								employeeList.add(findEmployee);
 			    								
 			    								saveEmployeeListToFile(employeeList, employeeCSVFirstLine);
+			    								System.out.println("전화번호 변경 완료!");
 			    						
 			    							} else if(empModifyNo == EmpModifyMenu.종료) {
 			    								isChangeDone = true;
@@ -565,7 +573,7 @@ public class Company {
 				    			        	
 				    			        }
 				    			        System.out.println("+---------------------------------------+");
-				    			        System.out.print("(0번 입력시 종료)");
+				    			        System.out.print("(0번 입력시 메뉴로 돌아가기) ");
 				    			        int vacationSelect = Menu.inputNo0(holyProposeList.size());
 				    			        if (vacationSelect == 0) {
 				    			        	isChanged = true;
@@ -593,9 +601,9 @@ public class Company {
 				    			        System.out.println("+---------------------------------------+");
 		    			        	    System.out.printf("| 🌟   🌟  🌟  %s 신청서    🌟   🌟   🌟  |\n", hp.getReqTypeStr() );
 				    			        System.out.println("+---------------------------------------+");
-				    			        System.out.printf("| 사 번 :  %s  |  사원명 : %s \n",emp.getEmpNo(), emp.getName());
-				    			        System.out.printf("| 시작일 : %s | 종료일 : %s \n", hp.getStartDt(), hp.getEndDt());
-				    			        System.out.printf("| 결재 상태 : %s | %s기간 : %d일 \n", hp.getStatStr(), hp.getReqTypeStr(), hp.getUsedDay());
+				    			        System.out.printf("| 사 번 :  %s  |  사원명 : %s          |\n",emp.getEmpNo(), emp.getName());
+				    			        System.out.printf("| 시작일 : %s | 종료일 : %s |\n", hp.getStartDt(), hp.getEndDt());
+				    			        System.out.printf("| 결재 상태 : %s | %s기간 : %d일            |\n", hp.getStatStr(), hp.getReqTypeStr(), hp.getUsedDay());
 				    			        System.out.printf("| 사 유 : %s \n", hp.getEu());
 				    			        System.out.println("+---------------------------------------+");
 				    			        System.out.println("| 1. 뒤로가기 | 2. 승인  | 3.반려  | 4. 대기  |");
