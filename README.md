@@ -64,7 +64,7 @@
 
 -
 
-![image](https://github.com/92choihyojin/HyoHub/blob/main/HR_Vacation_Project/HR_Vacation_Project.mp4)
+![image](https://github.com/92choihyojin/HyoHub/blob/main/HR_Vacation_Project/HR_Vacation_Project.gif)
 
 ## 🗃️ DB 테이블 명세서
 
