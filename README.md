@@ -10,7 +10,7 @@
 <br>
 
 ## 🕰️ 개발 기간
-* 2025-04-22 ~ 2025-04-29  
+* 2025-04-22 ~ 2025-04-25  
 
 ### 🧑‍🤝‍🧑 멤버구성
  - 개발자 : 최효진
@@ -64,7 +64,7 @@
 
 -
 
-![image](https://github.com/92choihyojin/HyoHub/blob/main/HR_Vacation_Project/HR_Vacation_Project.mp4)
+![image](https://github.com/92choihyojin/HyoHub/blob/main/HR_Vacation_Project/HR_Vacation_Project.gif)
 
 ## 🗃️ DB 테이블 명세서
 
